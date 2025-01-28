@@ -1,0 +1,17 @@
+@import url(./blocks.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100svh;
+    display: grid;
+}
+
+.hidden {
+    position: absolute;
+    left: -100rem;
+}
