@@ -1,8 +1,35 @@
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--White);
+    font-family: 'medium';
+    font-weight: 500;
+
+    & section {
+        padding: var(--padding);
+    }
+
+    & .result {
+        text-align: center;
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(to bottom, 
+            var(--Light-slate-blue),
+            var(--Light-royal-blue));
+        color: var(--White);
+
+        & .circle {
+            width: fit-content;
+            border-radius: 50%;
+            padding: var(--padding);
+            background-image: linear-gradient(to bottom,
+                var(--Violet-blue),
+                var(--Persian-blue));
+        }
+    }
 }
 
 footer {
     margin-top: auto;
+    font-size: 11px; 
+    text-align: center;
 }

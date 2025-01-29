@@ -1,4 +1,5 @@
-@import url(./blocks.css);
+@import url('./variables.css');
+@import url('./blocks.css');
 
 * {
     box-sizing: border-box;
@@ -6,9 +7,14 @@
     padding: 0;
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     min-height: 100svh;
     display: grid;
+    background-color: var(--Pale-blue);
 }
 
 .hidden {

@@ -1,0 +1,30 @@
+:root {
+    /* colors */
+    --Pale-blue: hsl(221, 100%, 96%);
+    --White: hsl(0, 0%, 100%);
+    --Light-lavender: hsl(241, 100%, 89%);
+
+    /* (background) */
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    /* (circle) */
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* utilities */
+    --padding: 2rem;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'medium';
+    src: url('../assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family: 'extrabold';
+    src: url('../assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
