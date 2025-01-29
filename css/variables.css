@@ -1,7 +1,7 @@
 :root {
     /* colors */
-    --Pale-blue: hsl(221, 100%, 96%);
     --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
     --Light-lavender: hsl(241, 100%, 89%);
 
     /* (background) */
@@ -19,12 +19,15 @@
 @font-face {
     font-family: 'medium';
     src: url('../assets/fonts/static/HankenGrotesk-Medium.ttf');
+    font-weight: 500;
 }
 @font-face {
     font-family: 'bold';
     src: url('../assets/fonts/static/HankenGrotesk-Bold.ttf');
+    font-weight: 700;
 }
 @font-face {
     font-family: 'extrabold';
     src: url('../assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+    font-weight: 800;
 }

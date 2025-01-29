@@ -1,8 +1,9 @@
+@import url('./variables.css');
+
 main {
     display: grid;
     background-color: var(--White);
-    font-family: 'medium';
-    font-weight: 500;
+    font-family: 'medium', sans-serif;
 
     & section {
         padding: var(--padding);
@@ -15,15 +16,45 @@ main {
         background-image: linear-gradient(to bottom, 
             var(--Light-slate-blue),
             var(--Light-royal-blue));
-        color: var(--White);
+        border-bottom-left-radius: var(--padding) ;
+        border-bottom-right-radius: var(--padding) ;
+        color: var(--Light-lavender);
+        /* padding-inline: calc(2 * var(--padding)); */
+        padding: var(--padding);
+
+        & h2 {
+            font-size: 1rem;
+        }
 
         & .circle {
-            width: fit-content;
+            width: 7.75rem;
+            aspect-ratio: 1 / 1;
             border-radius: 50%;
-            padding: var(--padding);
+            margin-block: 1rem;
+            /* padding-inline: var(--padding); */
             background-image: linear-gradient(to bottom,
                 var(--Violet-blue),
                 var(--Persian-blue));
+            display: grid;
+            place-items: center;
+            font-size: .8rem;
+
+            & [data-score] {
+                color: var(--White);
+                font-size: 3rem;
+                font-weight: 800;
+            }
+        }
+
+        & [data-delay] {
+            font-size: .85rem;
+            padding-inline: calc(var(--padding) / 2);
+
+            & :first-child {
+                color: var(--White);
+                font-size: 1.25rem;
+                margin-bottom: .5rem;
+            }
         }
     }
 }
