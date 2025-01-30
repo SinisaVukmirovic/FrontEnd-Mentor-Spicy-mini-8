@@ -1,0 +1,11 @@
+@media (width > 1440px) {
+    main {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        height: fit-content;
+
+        & .result {
+            border-radius: var(--padding);
+        }
+    }
+}

@@ -1,5 +1,6 @@
 @import url('./variables.css');
 @import url('./blocks.css');
+@import url('./desktop.css');
 
 * {
     box-sizing: border-box;
@@ -20,4 +21,10 @@ body {
 .hidden {
     position: absolute;
     left: -100rem;
+}
+
+@media (width > 1440px) {
+    body {
+        padding-top: 10%;
+    }
 }
