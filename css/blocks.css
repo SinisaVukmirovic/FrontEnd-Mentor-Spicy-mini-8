@@ -22,7 +22,7 @@ main {
         border-bottom-right-radius: var(--padding);
         color: var(--Light-lavender);
         /* padding-inline: calc(2 * var(--padding)); */
-        padding: var(--padding);
+        /* padding: var(--padding); */
         padding-top: 1.5rem;
 
         & h2 {
@@ -63,7 +63,7 @@ main {
         }
     }
 
-    .summary {
+    & .summary {
         & h2 {
             color: var(--Dark-gray-blue);
             font-size: 1rem;
