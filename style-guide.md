@@ -27,7 +27,6 @@ The designs were created to the following widths:
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
 
 
-
 ### Neutral
 
 - White: hsl(0, 0%, 100%)

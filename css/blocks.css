@@ -148,8 +148,12 @@ main {
             color: var(--White);
             font-size: .95rem;
             font-weight: 700;
+            transition: scale 100ms;
             animation: fade-in linear 500ms backwards;
             animation-delay: 1.75s;
+        }
+        & button:active {
+            scale: .98;
         }
     }
 }
@@ -182,9 +186,10 @@ footer {
     font-size: .8rem; 
     text-align: center;
     padding: .5rem;
+    color: var(--Light-slate-blue);
 
     & a {
         text-decoration: none;
-        color: var(--Dark-gray-blue); 
+        color: var(--Light-royal-blue);
     }
 }
