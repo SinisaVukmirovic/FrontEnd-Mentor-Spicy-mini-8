@@ -8,7 +8,7 @@ async function getJsonData() {
 }
 
 getJsonData().then(data => {
-    data.forEach(( { icon, category, score} ) => {
+    data.forEach(( { icon, category, score} = d) => {
         abilitiesElem.innerHTML += `
             <div>
                 <div class="icon-ability">
