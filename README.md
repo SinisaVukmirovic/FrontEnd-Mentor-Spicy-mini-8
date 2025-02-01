@@ -13,12 +13,12 @@ This is a SPICED UP solution to the [Results summary component challenge on Fron
 
 ### Screenshot
 
-![](./screenshot.png)
+![Screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [CODE](https://your-solution-url.com)
-- Live Site URL: [DEMO](https://your-live-site-url.com)
+- Solution URL: [CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-Spicy-mini-8)
+- Live Site URL: [DEMO](https://sinisavukmirovic.github.io/FrontEnd-Mentor-Spicy-mini-8/)
 
 ## Author
 

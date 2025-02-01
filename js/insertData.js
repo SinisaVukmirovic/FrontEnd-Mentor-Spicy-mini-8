@@ -1,4 +1,5 @@
-const jsonData = '../data.json';
+// const jsonData = '../data.json';
+const jsonData = './data.json';
 const abilitiesElem = document.querySelector('[data-abilities]');
 
 async function getJsonData() {
