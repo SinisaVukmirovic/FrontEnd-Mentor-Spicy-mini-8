@@ -1,7 +1,8 @@
+const jsonData = '../data.json';
 const abilitiesElem = document.querySelector('[data-abilities]');
 
 async function getJsonData() {
-    const response = await fetch('../data.json');
+    const response = await fetch(jsonData);
     const data = await response.json();
 
     return data;
