@@ -23,7 +23,8 @@ body {
     left: -100rem;
 }
 
-@media (width > 1440px) {
+/* @media (width > 1440px) { */
+@media (width > 1280px) {
     body {
         padding-top: 10%;
     }

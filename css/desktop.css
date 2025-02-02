@@ -1,4 +1,5 @@
-@media (width > 1440px) {
+/* @media (width > 1440px) { */
+@media (width > 1280px) {
     main {
         max-width: 720px;
         height: fit-content;

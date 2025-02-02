@@ -1,6 +1,11 @@
 @import url('./variables.css');
 @import url('./keyframes.css');
 
+header {
+    /* display: none; */
+    position: absolute;
+}
+
 main {
     max-width: 414px;
     margin-inline: auto;
